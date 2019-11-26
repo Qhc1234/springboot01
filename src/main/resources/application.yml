@@ -3,7 +3,7 @@
 #  servlet:
 #    context-path: /springboot01
 
-#server:
+#server:github
 #  port: 8080
 #cupSize: 我爱Java
 #age: 50
