@@ -1,0 +1,33 @@
+#server:
+#  port: 8082
+#  servlet:
+#    context-path: /springboot01
+
+#server:
+#  port: 8080
+#cupSize: 我爱Java
+#age: 50
+#content: "cupSize:${cupSize},age:${age}"
+
+#server:
+#  port: 8080
+#springboot01:
+#  cupSize: Java
+#  age: 18
+
+spring:
+  profiles:
+    active: dev
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/dbgirl
+      username: root
+      password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
+
